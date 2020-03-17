@@ -9,7 +9,7 @@ if [ "$#" -eq "1" ]; then
 	else
 		DIR="$1"
 	fi
-# Check of more than one arguments passed.
+# Check if more than one arguments passed.
 elif [ "$#" -gt "1" ]; then
 	echo "[-] Too many arguments passed!"
 	exit 1

@@ -4,7 +4,7 @@
 
 # In caz ca primul parametru va fi mai mic decit al doile:
 
-# va fi afisa in cazul cu ghilimele simple $1 < $2 sau $2 < $1.
+# va afisa in cazul cu ghilimele simple $1 < $2 sau $2 < $1.
 ((test $1 -lt $2) && (echo '$1 < $2')) || (echo '$2 < $1')
 
 # iar in cazul ghilimelelor duble variabilele argumentelor
